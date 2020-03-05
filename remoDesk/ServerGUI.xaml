@@ -1,0 +1,22 @@
+﻿<Window x:Class="remoDesk.ServerGUI"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:remoDesk"
+        mc:Ignorable="d"
+        Title="remoDesk - Server GUI" Height="300" Width="400" Background="#FF3F4A5C" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen" Icon="https://raw.githubusercontent.com/intfrog/Toolbox/master/_image/Toolbox.ico">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <TextBox Template="{StaticResource TextBoxBaseControlTemplate}" Name="PortInputTxt" HorizontalAlignment="Left" Height="35" Margin="24,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="350" Foreground="White" BorderBrush="#FF282F3B" Background="#FF282F3B" FontFamily="Calibri Light" FontSize="25"/>
+        <Label Content="The port of your choice to be opened:" HorizontalAlignment="Left" Margin="24,35,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Calibri Light" FontSize="16"/>
+        <Button Name="ShowScreen"  Content="Show Client Screen" Style="{StaticResource RoundBotton}" HorizontalAlignment="Left" Height="53" Margin="24,113,0,0" VerticalAlignment="Top" Width="350" Background="#FF4F5D73" BorderBrush="#FF4F5D73" Foreground="White" Click="ShowScreen_Click" Cursor="Hand"/>
+        <Label Content="remoDesk createt by. dibiasi and dieserxando" HorizontalAlignment="Left" Margin="75,235,0,0" VerticalAlignment="Top" FontFamily="Calibri Light" FontSize="13" Foreground="White"/>
+        <Button Name="MyIpBTN" Content="Show my IP" Style="{StaticResource RoundBotton}" HorizontalAlignment="Left" Height="53" Margin="24,171,0,0" VerticalAlignment="Top" Width="350" Background="#FF4F5D73" BorderBrush="#FF4F5D73" Foreground="White" Click="MyIpBTN_Click" Cursor="Hand"/>
+
+    </Grid>
+
+</Window>

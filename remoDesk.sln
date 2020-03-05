@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "remoDesk", "remoDesk\remoDesk.csproj", "{2C19E43B-D5AB-445D-B6DA-EDE1E8D8C6CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C19E43B-D5AB-445D-B6DA-EDE1E8D8C6CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C19E43B-D5AB-445D-B6DA-EDE1E8D8C6CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C19E43B-D5AB-445D-B6DA-EDE1E8D8C6CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C19E43B-D5AB-445D-B6DA-EDE1E8D8C6CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A1ACEC7E-95B5-4BF2-9CE6-209722421FBD}
+	EndGlobalSection
+EndGlobal
